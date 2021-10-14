@@ -204,7 +204,7 @@ body.on .balloon1{
     background: url(b1.png);
     animation: balloon1 7s;
     position: absolute;
-    bottom: -275px;
+    bottom: -400px;
 }
 body.on .balloon2{
     width: 150px;
@@ -212,7 +212,7 @@ body.on .balloon2{
     background: url(b2.png);
     animation: balloon2 6s;
     position: absolute;
-    bottom: -275px;
+    bottom: -400px;
     left: 200px
 }
 
@@ -220,21 +220,15 @@ body.on .balloon2{
     0%{
         transform: translateY(0px) translateX(0px);
     }
-    50%{
-        transform: translateY(-1000px) translateX(100px);
-    }
     100%{
-        transform: translateY(-1000px) translateX(0px);
+        transform: translateY(-1500px) translateX(100px);
     }
 }
 @keyframes balloon2{
     0%{
         transform: translateY(0px)translateX(0px);
     }
-    50%{
-        transform: translateY(-1000px) translateX(100px);
-    }
     100%{
-        transform: translateY(-1000px) translateX(0px);
+        transform: translateY(-1500px) translateX(100px);
     }
 }
