@@ -177,6 +177,7 @@ body.on .bday{
     left: 60px;
     font-size: 50px;
     font-family: 'Lobster', cursive;
+    text-transfer: capitalize;
 }
 body.on #text{
     position: absolute;
